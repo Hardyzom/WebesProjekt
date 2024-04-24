@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő-Papír-Olló</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="cim.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body onload="playGame()">
+    
+<div>
+    <div class="image-container">
+        <img src="rock.jpg" alt="Kő" onclick="playGame('Kő')">
+        <img src="paper.jpg" alt="Papír" onclick="playGame('Papír')">
+        <img src="scissors.jpg" alt="Olló" onclick="playGame('Olló')">
+    </div>
+    <div id="result"></div>
+    <div id="computerChoice"></div>
+    <div id="score"></div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
